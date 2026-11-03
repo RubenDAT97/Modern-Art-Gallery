@@ -1,0 +1,21 @@
+@use "../abstracts/abstracts" as abs;
+
+@mixin button-principal() {
+    background-color: abs.$color-grey-dark;
+    text-decoration: none;
+    color: white;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: abs.$title-font;
+
+}
+@mixin button-second() {
+    background-color: abs.$color-canela;
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
